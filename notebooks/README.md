@@ -1,17 +1,17 @@
 # Notebooks do projeto
 
-Cada responsável prepara sua seção no Google Colab, utilizando a mesma base de imagens e a mesma divisão entre treino, validação e teste.
+A contribuição da **YOLO customizada** está publicada em [LucasCarvalhoCordeiro_rm570388_pbl_fase6.ipynb](LucasCarvalhoCordeiro_rm570388_pbl_fase6.ipynb), com as 13 células de código executadas no Colab, saídas preservadas, comparação de 30 e 60 épocas, teste reservado e conclusões.
 
-| Frente | Arquivo sugerido | Conteúdo |
+| Contribuição | Arquivo | Situação no repositório |
 | --- | --- | --- |
-| Lucas | `frente1_yolo_customizada.ipynb` | Dois experimentos de treinamento da YOLO, avaliação e interpretação |
-| Elton | `frente3_yolo_padrao.ipynb` | YOLO padrão, avaliação e comparação das abordagens |
-| Matheus | `frente4_cnn.ipynb` | CNN treinada do zero, avaliação e interpretação |
+| Lucas — YOLO customizada | [Notebook executado](LucasCarvalhoCordeiro_rm570388_pbl_fase6.ipynb) | Publicada; servirá de base para a integração |
+| Elton — YOLO padrão e comparação | Nome a definir na incorporação | Ainda não integrada |
+| Matheus — CNN do zero | Nome a definir na incorporação | Ainda não integrada |
 
-Larissa fornece a base final e a descrição da coleta, marcações e divisão dos dados, além de atualizar o README principal.
+Larissa fornece a descrição da coleta e da marcação dos dados, além da revisão do README. As imagens e marcações usadas no treinamento estão no Drive; a divisão está registrada em [data/manifesto.csv](../data/manifesto.csv).
 
-Os nomes sugeridos identificam as contribuições durante o desenvolvimento; esses notebooks ainda não estão publicados neste diretório.
+Antes de integrar, cada responsável deve salvar o notebook com as células executadas, resultados visíveis e explicações em Markdown. Informar a configuração, o ambiente, os caminhos dos arquivos e quais etapas estão incluídas nos tempos medidos.
 
-Antes de integrar, salvar o notebook com as células executadas, resultados visíveis e explicações em Markdown. Registrar a configuração, o ambiente e os caminhos necessários para reproduzir a execução. Usar o conjunto de validação para escolher configurações e preservar o teste para a avaliação final.
+Lucas reúne as contribuições no notebook final com nome completo, RM e `pbl_fase6.ipynb`, preservando a identificação dos quatro integrantes. A integração deve usar as mesmas imagens, manter o teste reservado e diferenciar métricas de detecção e classificação. Depois, executar a versão consolidada do começo ao fim e atualizar o README com o link correspondente.
 
-Lucas reúne as seções no arquivo final **`NomeCompleto_rmXXXXX_pbl_fase6.ipynb`**, com nome e RM corretos e identificação dos quatro integrantes. O notebook consolidado deve ser executado do começo ao fim, preservando as saídas. Após a integração, incluir seu link direto no README principal.
+As saídas da contribuição da YOLO são da execução de 12/10/2026. A revisão documental preservou o código e as saídas originais e acrescentou identificação, títulos, explicações e curvas recuperadas dos experimentos. O treinamento não foi reexecutado durante essa revisão.

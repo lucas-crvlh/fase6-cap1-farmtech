@@ -1,0 +1,17 @@
+[34m[1mdetect: [0mweights=['/content/drive/MyDrive/FIAP_fase6_grupo21/resultados_yolo/exp_60_epocas_20261012_200853/weights/best.pt'], source=/content/dataset_farmtech/images/test, data=data/coco128.yaml, imgsz=[640, 640], conf_thres=0.25, iou_thres=0.6, max_det=300, device=0, view_img=False, save_txt=True, save_format=0, save_csv=False, save_conf=True, save_crop=False, nosave=False, classes=[0, 1], agnostic_nms=False, augment=False, update=False, project=/content/drive/MyDrive/FIAP_fase6_grupo21/resultados_yolo/exp_60_epocas_20261012_200853, name=predicoes_por_foto_20261012_210135, exist_ok=False, line_thickness=3, hide_labels=False, hide_conf=False, half=False, dnn=False, vid_stride=1
+YOLOv5 🚀 f957879 Python-3.13.15 torch-2.11.0+cu130 CUDA:0 (Tesla T4, 14913MiB)
+
+Fusing layers... 
+Model summary: 68 layers, 7,015,519 parameters, 0 gradients, 15.8 GFLOPs
+image 1/8 /content/dataset_farmtech/images/test/20261009_191256.jpg: 640x480 2 garrafa_pets, 31.6ms
+image 2/8 /content/dataset_farmtech/images/test/20261011_220831.jpg: 640x480 2 bananas, 13.2ms
+image 3/8 /content/dataset_farmtech/images/test/20261011_221012.jpg: 640x480 5 bananas, 13.2ms
+image 4/8 /content/dataset_farmtech/images/test/IMG-20261005-WA0006.jpg: 640x384 7 bananas, 31.9ms
+image 5/8 /content/dataset_farmtech/images/test/IMG-20261005-WA0008.jpg: 640x384 6 bananas, 11.1ms
+image 6/8 /content/dataset_farmtech/images/test/IMG-20261005-WA0044.jpg: 640x480 (no detections), 13.2ms
+image 7/8 /content/dataset_farmtech/images/test/IMG-20261005-WA0060.jpg: 640x480 1 garrafa_pet, 13.1ms
+image 8/8 /content/dataset_farmtech/images/test/IMG-20261005-WA0112.jpg: 640x384 1 garrafa_pet, 11.2ms
+Speed: 0.5ms pre-process, 17.3ms inference, 21.4ms NMS per image at shape (1, 3, 640, 640)
+Results saved to [1m/content/drive/MyDrive/FIAP_fase6_grupo21/resultados_yolo/exp_60_epocas_20261012_200853/predicoes_por_foto_20261012_210135[0m
+7 labels saved to /content/drive/MyDrive/FIAP_fase6_grupo21/resultados_yolo/exp_60_epocas_20261012_200853/predicoes_por_foto_20261012_210135/labels
+

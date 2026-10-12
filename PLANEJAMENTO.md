@@ -1,5 +1,7 @@
 # Plano de trabalho — FarmTech Solutions, Fase 6
 
+> Plano inicial de organização. A situação atual das contribuições está no [README](README.md). Em 12/10/2026, a YOLO customizada foi executada e organizada no repositório; os prazos intermediários abaixo permanecem como registro do planejamento original.
+
 Elaborado em **02/10/2026**. Prazo informado pelo grupo: **13/10/2026**. Meta interna: entregar em **12/10**, após a revisão final. Confirmar no portal o horário oficial; não foi informado no pedido.
 
 Equipe: você, Larissa, Elton e Matheus. Divisão confirmada pelo grupo em **03/10/2026**: você assume a Frente 1; Larissa, a Frente 2; Elton, a Frente 3; Matheus, a Frente 4. O objetivo é cumprir integralmente as duas entregas obrigatórias, com evidências e revisão, buscando a nota máxima; a nota depende da avaliação da FIAP.

@@ -1,74 +1,55 @@
-# FarmTech Solutions — Fase 6
+# FarmTech Solutions — Fase 6 — Grupo 21
 
-Projeto acadêmico da FIAP, desenvolvido pelo **Grupo 21**, para reconhecer **bananas e garrafas PET em imagens** e comparar três abordagens de visão computacional: YOLO customizada, YOLO padrão e uma CNN treinada do zero.
+Projeto acadêmico da FIAP para reconhecer **bananas e garrafas PET em imagens** e comparar três abordagens de visão computacional: YOLO customizada, YOLO padrão e CNN treinada do zero.
 
-**Prazo informado pelo grupo: 13/10/2026.** Este repositório reúne a estrutura inicial do trabalho. Os notebooks executados, resultados e vídeo serão adicionados durante a integração das contribuições.
+**Prazo informado pelo grupo: 13/10/2026.** A contribuição da YOLO customizada está executada e disponível neste repositório. A entrega completa depende da integração das demais contribuições e do vídeo.
 
-## Equipe e divisão do trabalho
+## Acesso às contribuições
 
-| Integrante | Frente | Responsabilidade |
+| Material | Acesso | Situação neste repositório |
 | --- | --- | --- |
-| Lucas Carvalho Cordeiro | 1 | YOLO customizada e integração do notebook final |
-| Larissa | 2 | Organização das imagens, marcações e README |
-| Elton | 3 | YOLO padrão e comparação das abordagens |
-| Matheus | 4 | CNN do zero e montagem do vídeo |
+| YOLO customizada — Lucas | [Notebook executado](notebooks/LucasCarvalhoCordeiro_rm570388_pbl_fase6.ipynb) · [Abrir no Colab](https://colab.research.google.com/github/lucas-crvlh/fase6-cap1-farmtech/blob/main/notebooks/LucasCarvalhoCordeiro_rm570388_pbl_fase6.ipynb) | Dois experimentos, teste, imagens processadas e conclusões disponíveis |
+| Dados e pesos | [Google Drive do grupo](https://drive.google.com/drive/folders/1T-mHMYGu8Nj33VuK808TOb8hT5D6Q5OT) | Base usada na YOLO customizada e resultados preservados |
+| Resumo da YOLO para comparação | [Resultados da Frente 1](docs/RESULTADOS_FRENTE1.md) | Métricas, durações, protocolo e caminhos disponíveis |
+| YOLO padrão e comparação — Elton | Contribuição ainda não integrada | A incorporar ao notebook consolidado |
+| CNN do zero — Matheus | Contribuição ainda não integrada | A incorporar ao notebook consolidado |
+| Vídeo demonstrativo | Link ainda não informado | Publicar como não listado no YouTube, com até cinco minutos |
 
-Os nomes completos e RMs dos quatro integrantes serão registrados na identificação do notebook final.
+O notebook disponível reúne a **Entrega 1**. O notebook consolidado deverá acrescentar a **Entrega 2**, comparando as três abordagens em qualidade, facilidade de integração, treinamento/customização e inferência. A descrição completa da YOLO customizada está no notebook.
 
-## O que será entregue
+## Equipe
 
-- **Entrega 1:** treinamento da YOLO customizada com duas quantidades diferentes de épocas, comparação dos resultados e exemplos de detecção nas imagens de teste.
-- **Entrega 2:** execução da YOLO padrão e treinamento da CNN do zero, com comparação de qualidade, facilidade de integração, tempo de treinamento e tempo de inferência.
-- **Apresentação:** notebook executado, explicações dos resultados e vídeo não listado no YouTube, com duração máxima de cinco minutos.
+| Integrante | RM | Frente | Responsabilidade |
+| --- | --- | --- | --- |
+| Lucas Carvalho Cordeiro | 570388 | 1 | YOLO customizada e integração do notebook final |
+| Larissa | A confirmar na integração | 2 | Organização das imagens, marcações e README |
+| Elton | A confirmar na integração | 3 | YOLO padrão e comparação das abordagens |
+| Matheus | A confirmar na integração | 4 | CNN do zero e montagem do vídeo |
 
-A YOLO identifica o objeto e sua posição na imagem. A CNN classifica a imagem. O notebook final explicará essa diferença ao comparar os resultados.
+A identificação do notebook consolidado deve incluir o nome completo e o RM dos quatro integrantes.
 
-## Imagens e marcações
+## Base de imagens
 
-A base compartilhada está no [Google Drive do grupo](https://drive.google.com/drive/folders/1T-mHMYGu8Nj33VuK808TOb8hT5D6Q5OT). Larissa coordena sua organização e a marcação dos objetos no Make Sense IA. O acesso aos arquivos deve ser conferido por outra pessoa antes da entrega.
+As marcações foram preparadas pelo grupo no Make Sense IA. A base conferida antes dos treinamentos contém **80 fotos** e seus arquivos de marcação, identificados no [manifesto](data/manifesto.csv).
 
-As classes próprias são **`0: banana`** e **`1: garrafa_pet`**. A divisão exigida para a base de 80 imagens é:
+| Classe | ID | Treino | Validação | Teste | Total |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Banana | 0 | 32 | 4 | 4 | 40 |
+| Garrafa PET | 1 | 32 | 4 | 4 | 40 |
+| **Total** | | **64** | **8** | **8** | **80** |
 
-| Classe | Treino | Validação | Teste | Total |
-| --- | ---: | ---: | ---: | ---: |
-| Banana | 32 | 4 | 4 | 40 |
-| Garrafa PET | 32 | 4 | 4 | 40 |
-| **Total** | **64** | **8** | **8** | **80** |
+As três abordagens devem usar essas mesmas imagens em cada conjunto. YOLO detecta e localiza objetos; a CNN classifica a foto inteira. O notebook explica o critério de classificação por foto usado para apoiar a comparação, mantendo as métricas de detecção separadas.
 
-Essa tabela apresenta a divisão prevista. A conferência da versão final utilizada nos experimentos será registrada no notebook. Todas as abordagens devem usar as mesmas imagens em cada conjunto.
+A configuração dos caminhos está em [data/dataset.yaml](data/dataset.yaml). Fotos originais e pesos permanecem no Drive. Para executar no Colab, adicione a pasta compartilhada a **Meu Drive** e siga a introdução do notebook.
 
-A configuração inicial dos caminhos e classes está em [data/dataset.yaml](data/dataset.yaml). As imagens e os pesos dos modelos ficam no Drive.
+## Organização e integração
 
-## Organização do repositório
+- [Notebooks](notebooks/README.md): contribuição publicada e orientações para reunir as demais seções.
+- [Resultados da Frente 1](docs/RESULTADOS_FRENTE1.md): resumo para Elton e Matheus usarem na comparação.
+- [Figuras da YOLO](docs/figuras/frente1_yolo/): curvas, referências, previsões e matriz de confusão.
+- [Arquivos de resultados](docs/resultados/frente1_yolo/): CSVs, JSONs, configurações e registro de inferência.
+- [Planejamento inicial](PLANEJAMENTO.md): histórico da divisão de responsabilidades e critérios de revisão.
 
-```text
-README.md                 Apresentação e links da entrega
-PLANEJAMENTO.md           Plano de trabalho e critérios de revisão
-data/dataset.yaml         Caminhos e classes para a YOLO
-notebooks/                Contribuições e notebook final executado
-docs/figuras/             Gráficos e exemplos de previsões
-docs/resultados/          Tabelas e resultados da comparação
-```
+Cada responsável deve fornecer sua contribuição com código executado, saídas, explicações e os arquivos necessários. Lucas integra o notebook final; Larissa revisa a documentação; Elton reúne a comparação; Matheus monta o vídeo.
 
-O [planejamento do grupo](PLANEJAMENTO.md) detalha as quatro frentes. O [guia de notebooks](notebooks/README.md) explica como organizar as contribuições para a integração.
-
-## Como contribuir
-
-1. Use a base final compartilhada por Larissa e preserve a divisão entre treino, validação e teste.
-2. Trabalhe no arquivo da sua frente, preservando as saídas da execução e explicando os resultados.
-3. Envie a contribuição para este repositório ou para Lucas integrar. Para editar diretamente no GitHub, é necessário ser adicionado como colaborador.
-4. Confira os links e a execução completa após a integração.
-
-Para obter uma cópia local:
-
-```bash
-git clone https://github.com/lucas-crvlh/fase6-cap1-farmtech.git
-```
-
-## Acesso à entrega final
-
-- **Notebook:** será publicado em [notebooks/](notebooks/), com o nome `NomeCompleto_rmXXXXX_pbl_fase6.ipynb`, substituindo nome e RM pela identificação correta.
-- **Dados:** [Google Drive do grupo](https://drive.google.com/drive/folders/1T-mHMYGu8Nj33VuK808TOb8hT5D6Q5OT).
-- **Vídeo:** o link direto do vídeo não listado será incluído após a publicação.
-
-Antes de enviar no portal, o grupo deve conferir o notebook executado, os nomes e RMs, o acesso aos dados e o conteúdo de cada link. Após a submissão, a versão entregue deve permanecer sem novos commits, conforme o enunciado.
+Antes da submissão, conferir o notebook consolidado, os nomes e RMs, o acesso aos dados e o conteúdo dos links. O vídeo deve demonstrar a solução funcionando. Após a submissão, manter a versão entregue sem novos commits, conforme o enunciado.

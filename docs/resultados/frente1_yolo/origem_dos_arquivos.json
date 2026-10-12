@@ -1,0 +1,111 @@
+{
+  "data_da_organizacao": "2026-10-12",
+  "notebook_original_sha256": "901f50709b35306317609b0e78a27d47a32d88283edb565c00569149f1a3174a",
+  "arquivos": [
+    {
+      "arquivo_no_repositorio": "docs/resultados/frente1_yolo/comparacao_validacao_yolo.csv",
+      "origem_drive": "https://drive.google.com/file/d/1E-nsTABHfdR7s535gtiwbFtMe_I_Dhhz/view?usp=drive_web",
+      "sha256": "3041df61d7d1206e62102603cf01e6983c8fb82f0eaefd3e298ebe7cc3f66e00"
+    },
+    {
+      "arquivo_no_repositorio": "docs/resultados/frente1_yolo/exp_30_epocas_20261012_194929/hyp.yaml",
+      "origem_drive": "https://drive.google.com/file/d/1xNL5OgJPbOT6dCS7oyc1h17OP0Pv1bWz/view?usp=drive_web",
+      "sha256": "c1fb3a39e47771e5bbb54adde0b0f370303ceb8ddf908b9d103710fb1a804bfb"
+    },
+    {
+      "arquivo_no_repositorio": "docs/resultados/frente1_yolo/exp_30_epocas_20261012_194929/metricas_validacao.json",
+      "origem_drive": "https://drive.google.com/file/d/1mw2lsLAb8YBCWvgwH-lAxrRpUHkCJqgY/view?usp=drive_web",
+      "sha256": "c571a62cfc6bbe4f102ee0a8cfb9d536a7af28159b922e6f71cfc828b2873d12"
+    },
+    {
+      "arquivo_no_repositorio": "docs/resultados/frente1_yolo/exp_30_epocas_20261012_194929/opt.yaml",
+      "origem_drive": "https://drive.google.com/file/d/1fJHE-ymPXBJFaf_M213ZTrtlfRfoq_KH/view?usp=drive_web",
+      "sha256": "2bd97787da7222cb85a68efcc03bca75cc2edec29428ff3544e2a6cd0d648913"
+    },
+    {
+      "arquivo_no_repositorio": "docs/resultados/frente1_yolo/exp_30_epocas_20261012_194929/results.csv",
+      "origem_drive": "https://drive.google.com/file/d/1vpM5YsBZraLfdqduwEd_jDqW5oBQg3bu/view?usp=drive_web",
+      "sha256": "ff71fd84a8560a7704ad3d38de1026d7176c66c3b3e0028ecd4e39b4f42a6741"
+    },
+    {
+      "arquivo_no_repositorio": "docs/figuras/frente1_yolo/curvas_30_epocas.png",
+      "origem_drive": "https://drive.google.com/file/d/1JTD-SRt7KIfoWap7WKGLg_jmuatjr3Gf/view?usp=drive_web",
+      "sha256": "f7904977f3501d51fd050b500a3e9354910dc01a478edf87ce4f59123f7f31f6"
+    },
+    {
+      "arquivo_no_repositorio": "docs/resultados/frente1_yolo/exp_30_epocas_20261012_194929/tempo_execucao.json",
+      "origem_drive": "https://drive.google.com/file/d/1MZJR0oQVD_SWp0jDU8moDyfhIncw1RpJ/view?usp=drive_web",
+      "sha256": "5839c2a3868a52effdef0932534240b661948bb352d7852150c957e890a771e1"
+    },
+    {
+      "arquivo_no_repositorio": "docs/resultados/frente1_yolo/exp_60_epocas_20261012_200853/hyp.yaml",
+      "origem_drive": "https://drive.google.com/file/d/1Vb8UJzVlCq6TT3Km7fvaP64FLv2fSzLi/view?usp=drive_web",
+      "sha256": "c1fb3a39e47771e5bbb54adde0b0f370303ceb8ddf908b9d103710fb1a804bfb"
+    },
+    {
+      "arquivo_no_repositorio": "docs/resultados/frente1_yolo/exp_60_epocas_20261012_200853/metricas_teste.json",
+      "origem_drive": "https://drive.google.com/file/d/1ogT7MpU3Wjf4hImMhZPypxIZ3HL2kIZP/view?usp=drive_web",
+      "sha256": "e46fbc2273355cc2c0a1fd60984ebaed7cdbaf2250d99d5f99325b9f0c2e2a1b"
+    },
+    {
+      "arquivo_no_repositorio": "docs/resultados/frente1_yolo/exp_60_epocas_20261012_200853/metricas_validacao.json",
+      "origem_drive": "https://drive.google.com/file/d/15e8-OMr4727kFWLNZDnIPN0IOCgs1nBY/view?usp=drive_web",
+      "sha256": "1b29f1a38dcff9d49369107d7584ea7308ff2598b481668e403c491874505e6d"
+    },
+    {
+      "arquivo_no_repositorio": "docs/resultados/frente1_yolo/exp_60_epocas_20261012_200853/opt.yaml",
+      "origem_drive": "https://drive.google.com/file/d/1XgDCzejLYQRXfKMPCAFW1UZ66UxqlLVL/view?usp=drive_web",
+      "sha256": "2aeace54bbbc9b61133d16c580553edd81d8ee17cf6066a8188f444c9635e2d9"
+    },
+    {
+      "arquivo_no_repositorio": "docs/resultados/frente1_yolo/exp_60_epocas_20261012_200853/predicoes_por_foto_20261012_210135/acertos_por_foto.csv",
+      "origem_drive": "https://drive.google.com/file/d/1yRB6pJ3TPSIcSGDmW8gE0yhFhnLiPNPw/view?usp=drive_web",
+      "sha256": "e49052d1d85e520f9ad78ef6c3c819b6710de0eae3ac847d87815eb35d58076c"
+    },
+    {
+      "arquivo_no_repositorio": "docs/resultados/frente1_yolo/exp_60_epocas_20261012_200853/predicoes_por_foto_20261012_210135/log_inferencia.txt",
+      "origem_drive": "https://drive.google.com/file/d/184X9MpqSs7_5oRWtCXN8O6uMmUABQX02/view?usp=drive_web",
+      "sha256": "0f070e992ccced3c578b5a234ca97df7d17354bf05096b4b10659c5bbc757a71"
+    },
+    {
+      "arquivo_no_repositorio": "docs/resultados/frente1_yolo/exp_60_epocas_20261012_200853/predicoes_por_foto_20261012_210135/tempos_inferencia.json",
+      "origem_drive": "https://drive.google.com/file/d/1fo4eRtarphdGICtVuqwx-hVVk5c98p09/view?usp=drive_web",
+      "sha256": "00036df54aeb3869e0c647f3a9f6c30c763934396eeeee0503d11cbad408e226"
+    },
+    {
+      "arquivo_no_repositorio": "docs/resultados/frente1_yolo/exp_60_epocas_20261012_200853/results.csv",
+      "origem_drive": "https://drive.google.com/file/d/1tlw7S5NNr3IyKtE9K6p6UMOz8jZFjvyf/view?usp=drive_web",
+      "sha256": "706afa04160c84908140d7401c88f42c099eb8a468930b1bbe6e2908a03401ad"
+    },
+    {
+      "arquivo_no_repositorio": "docs/figuras/frente1_yolo/curvas_60_epocas.png",
+      "origem_drive": "https://drive.google.com/file/d/1yFVVzss50T0Ao4YyZ1_mP62sGQsu6EP1/view?usp=drive_web",
+      "sha256": "f6e0991af200e51815be8cfccaf77691366572fdb996f4e4997bd02205c37ec1"
+    },
+    {
+      "arquivo_no_repositorio": "docs/resultados/frente1_yolo/exp_60_epocas_20261012_200853/tempo_execucao.json",
+      "origem_drive": "https://drive.google.com/file/d/1X1kfWVrQ6Lr8o6XRFrVXjX6YkF2rzkLa/view?usp=drive_web",
+      "sha256": "4a86d410d28f4d1bec212934d0b0b699c92ae64cd33255fa435823a9beb620bb"
+    },
+    {
+      "arquivo_no_repositorio": "docs/resultados/frente1_yolo/resultado_teste_yolo.csv",
+      "origem_drive": "https://drive.google.com/file/d/1xJXuFraLUf2399naCjqpf1awbBL8v1-Q/view?usp=drive_web",
+      "sha256": "7813da94557fcbc7bb642ea0c231f8eb26f5dcf62d3d79bb8ec9fd832821f114"
+    },
+    {
+      "arquivo_no_repositorio": "docs/figuras/frente1_yolo/teste_marcacoes.jpg",
+      "origem": "Saída incorporada no notebook Colab baixado pelo autor",
+      "sha256": "88e71a867aa42603fad6f2121b562811fd82fc895eef665ede07e7164ced9f7a"
+    },
+    {
+      "arquivo_no_repositorio": "docs/figuras/frente1_yolo/teste_previsoes.jpg",
+      "origem": "Saída incorporada no notebook Colab baixado pelo autor",
+      "sha256": "8f763b23a98e81c5efd2ba3b7d19013bdf4b5de735c904601986844dfcbef46a"
+    },
+    {
+      "arquivo_no_repositorio": "docs/figuras/frente1_yolo/teste_matriz_confusao.png",
+      "origem": "Saída incorporada no notebook Colab baixado pelo autor",
+      "sha256": "fca128838f2af75db082c28eb59c22917bc8db4bd54f1373832c58db476216cd"
+    }
+  ]
+}

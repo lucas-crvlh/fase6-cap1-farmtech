@@ -1,0 +1,9 @@
+{
+  "preparacao_medida_ms_por_foto": 0.5,
+  "inferencia_modelo_ms_por_foto": 17.3,
+  "filtragem_caixas_ms_por_foto": 21.4,
+  "fotos_avaliadas": 8,
+  "gpu": "Tesla T4",
+  "batch_size": 1,
+  "imgsz": 640
+}
