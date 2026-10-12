@@ -1,0 +1,33 @@
+# Arquivos locais e credenciais
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Fotos, exportacoes e pesos permanecem no Drive
+*.zip
+fotos_originais/
+dataset_yolo/
+data/images/
+data/labels/
+*.pt
+*.pth
+*.h5
+*.keras
+*.onnx
+runs/
+
+# Ferramentas locais de diagnostico da copia anterior do ZIP
+VERIFICAR_ZIP.cmd
+scripts/verificar_zip.py
+docs/verificacao_zip.json
+docs/verificacao_zip.md
